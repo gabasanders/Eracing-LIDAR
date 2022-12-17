@@ -1,0 +1,239 @@
+Sat Dec 17 09:36:02 2022    destino.profiler
+
+         6547 function calls (6525 primitive calls) in 0.027 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.027    0.027 main.py:7(main)
+        1    0.003    0.003    0.027    0.027 processing.py:11(processing)
+        1    0.001    0.001    0.017    0.017 ransac.py:77(remove_floor)
+        1    0.014    0.014    0.015    0.015 ransac.py:53(find_best_plane)
+  401/396    0.000    0.000    0.005    0.000 {built-in method numpy.core._multiarray_umath.implement_array_function}
+      378    0.000    0.000    0.005    0.000 <__array_function__ internals>:177(mean)
+      378    0.000    0.000    0.004    0.000 fromnumeric.py:3313(mean)
+      378    0.001    0.000    0.004    0.000 _methods.py:163(_mean)
+      385    0.002    0.000    0.002    0.000 {method 'reduce' of 'numpy.ufunc' objects}
+        1    0.002    0.002    0.002    0.002 ransac.py:6(crop_rectangle)
+        1    0.000    0.000    0.002    0.002 _dbscan.py:322(fit)
+        1    0.000    0.000    0.001    0.001 _base.py:996(radius_neighbors)
+        1    0.000    0.000    0.001    0.001 parallel.py:1000(__call__)
+        2    0.000    0.000    0.001    0.000 parallel.py:838(dispatch_one_batch)
+        1    0.000    0.000    0.001    0.001 parallel.py:801(_dispatch)
+        1    0.000    0.000    0.001    0.001 _parallel_backends.py:206(apply_async)
+        1    0.000    0.000    0.001    0.001 _parallel_backends.py:594(__init__)
+        1    0.000    0.000    0.001    0.001 parallel.py:284(__call__)
+        1    0.000    0.000    0.001    0.001 parallel.py:288(<listcomp>)
+        1    0.000    0.000    0.001    0.001 fixes.py:115(__call__)
+        1    0.000    0.000    0.001    0.001 _base.py:945(_tree_query_radius_parallel_helper)
+        1    0.001    0.001    0.001    0.001 {method 'query_radius' of 'sklearn.neighbors._kd_tree.BinaryTree' objects}
+      378    0.001    0.000    0.001    0.000 _methods.py:66(_count_reduce_items)
+        6    0.000    0.000    0.001    0.000 <__array_function__ internals>:177(sum)
+        6    0.000    0.000    0.000    0.000 fromnumeric.py:2162(sum)
+        7    0.000    0.000    0.000    0.000 fromnumeric.py:69(_wrapreduction)
+        5    0.000    0.000    0.000    0.000 validation.py:619(check_array)
+        1    0.000    0.000    0.000    0.000 _unsupervised.py:158(fit)
+        1    0.000    0.000    0.000    0.000 _base.py:404(_fit)
+        3    0.000    0.000    0.000    0.000 base.py:495(_validate_data)
+        5    0.000    0.000    0.000    0.000 validation.py:93(_assert_all_finite)
+        1    0.000    0.000    0.000    0.000 ransac.py:23(compute_planes)
+      819    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
+        1    0.000    0.000    0.000    0.000 {sklearn.cluster._dbscan_inner.dbscan_inner}
+        9    0.000    0.000    0.000    0.000 {built-in method numpy.asarray}
+        5    0.000    0.000    0.000    0.000 extmath.py:871(_safe_accumulator_op)
+      771    0.000    0.000    0.000    0.000 {built-in method builtins.issubclass}
+        1    0.000    0.000    0.000    0.000 parallel.py:669(__init__)
+        1    0.000    0.000    0.000    0.000 <__array_function__ internals>:177(cross)
+        1    0.000    0.000    0.000    0.000 _dbscan.py:409(<listcomp>)
+        1    0.000    0.000    0.000    0.000 numeric.py:1485(cross)
+      387    0.000    0.000    0.000    0.000 {built-in method numpy.core._multiarray_umath.normalize_axis_index}
+        1    0.000    0.000    0.000    0.000 {method 'randint' of 'numpy.random.mtrand.RandomState' objects}
+       12    0.000    0.000    0.000    0.000 abc.py:96(__instancecheck__)
+       12    0.000    0.000    0.000    0.000 {built-in method _abc._abc_instancecheck}
+      378    0.000    0.000    0.000    0.000 fromnumeric.py:3308(_mean_dispatcher)
+        5    0.000    0.000    0.000    0.000 validation.py:310(_num_samples)
+      385    0.000    0.000    0.000    0.000 {built-in method numpy.asanyarray}
+    19/11    0.000    0.000    0.000    0.000 abc.py:100(__subclasscheck__)
+        3    0.000    0.000    0.000    0.000 <__array_function__ internals>:177(moveaxis)
+    19/11    0.000    0.000    0.000    0.000 {built-in method _abc._abc_subclasscheck}
+      380    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+        3    0.000    0.000    0.000    0.000 numeric.py:1410(moveaxis)
+        1    0.000    0.000    0.000    0.000 parallel.py:411(effective_n_jobs)
+        1    0.000    0.000    0.000    0.000 <__array_function__ internals>:177(prod)
+      426    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        5    0.000    0.000    0.000    0.000 numerictypes.py:356(issubdtype)
+        3    0.000    0.000    0.000    0.000 parallel.py:89(get_active_backend)
+        1    0.000    0.000    0.000    0.000 <__array_function__ internals>:177(argmax)
+        2    0.000    0.000    0.000    0.000 {built-in method numpy.array}
+        1    0.000    0.000    0.000    0.000 fromnumeric.py:2927(prod)
+       77    0.000    0.000    0.000    0.000 {built-in method builtins.hasattr}
+        5    0.000    0.000    0.000    0.000 warnings.py:165(simplefilter)
+        2    0.000    0.000    0.000    0.000 <__array_function__ internals>:177(einsum)
+        1    0.000    0.000    0.000    0.000 uuid.py:780(uuid4)
+        2    0.000    0.000    0.000    0.000 fromnumeric.py:51(_wrapfunc)
+        1    0.000    0.000    0.000    0.000 fromnumeric.py:1127(argmax)
+      2/1    0.000    0.000    0.000    0.000 parallel.py:772(_initialize_backend)
+        1    0.000    0.000    0.000    0.000 queue.py:33(__init__)
+        1    0.000    0.000    0.000    0.000 base.py:348(_get_tags)
+        5    0.000    0.000    0.000    0.000 warnings.py:181(_add_filter)
+        2    0.000    0.000    0.000    0.000 _base.py:1169(<genexpr>)
+        3    0.000    0.000    0.000    0.000 queue.py:153(get)
+        1    0.000    0.000    0.000    0.000 validation.py:1276(check_is_fitted)
+        1    0.000    0.000    0.000    0.000 <__array_function__ internals>:177(hstack)
+        3    0.000    0.000    0.000    0.000 validation.py:1375(check_scalar)
+        7    0.000    0.000    0.000    0.000 _config.py:28(get_config)
+        6    0.000    0.000    0.000    0.000 numeric.py:1347(normalize_axis_tuple)
+        1    0.000    0.000    0.000    0.000 _parallel_backends.py:513(effective_n_jobs)
+       37    0.000    0.000    0.000    0.000 {built-in method builtins.getattr}
+        1    0.000    0.000    0.000    0.000 fixes.py:97(delayed)
+        2    0.000    0.000    0.000    0.000 einsumfunc.py:1009(einsum)
+        2    0.000    0.000    0.000    0.000 functools.py:34(update_wrapper)
+        3    0.000    0.000    0.000    0.000 base.py:359(_check_n_features)
+        2    0.000    0.000    0.000    0.000 numeric.py:289(full)
+        2    0.000    0.000    0.000    0.000 <__array_function__ internals>:177(concatenate)
+        1    0.000    0.000    0.000    0.000 uuid.py:132(__init__)
+        1    0.000    0.000    0.000    0.000 shape_base.py:285(hstack)
+        2    0.000    0.000    0.000    0.000 contextlib.py:238(helper)
+        1    0.000    0.000    0.000    0.000 {method 'argmax' of 'numpy.ndarray' objects}
+        2    0.000    0.000    0.000    0.000 {built-in method numpy.core._multiarray_umath.c_einsum}
+        5    0.000    0.000    0.000    0.000 warnings.py:458(__enter__)
+        9    0.000    0.000    0.000    0.000 _config.py:20(_get_threadlocal_config)
+        1    0.000    0.000    0.000    0.000 queue.py:121(put)
+        1    0.000    0.000    0.000    0.000 fixes.py:100(delayed_function)
+        1    0.000    0.000    0.000    0.000 validation.py:1340(<listcomp>)
+        3    0.000    0.000    0.000    0.000 validation.py:257(_num_features)
+       10    0.000    0.000    0.000    0.000 numerictypes.py:282(issubclass_)
+        1    0.000    0.000    0.000    0.000 _parallel_backends.py:213(get_nested_backend)
+        3    0.000    0.000    0.000    0.000 threading.py:222(__init__)
+        4    0.000    0.000    0.000    0.000 {built-in method builtins.next}
+        3    0.000    0.000    0.000    0.000 _parallel_backends.py:280(__init__)
+        1    0.000    0.000    0.000    0.000 fixes.py:110(__init__)
+        6    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:389(parent)
+        3    0.000    0.000    0.000    0.000 base.py:405(_check_feature_names)
+        2    0.000    0.000    0.000    0.000 <__array_function__ internals>:177(atleast_1d)
+        1    0.000    0.000    0.000    0.000 _parallel_backends.py:389(configure)
+        1    0.000    0.000    0.000    0.000 _unsupervised.py:135(__init__)
+        2    0.000    0.000    0.000    0.000 contextlib.py:108(__enter__)
+        2    0.000    0.000    0.000    0.000 <__array_function__ internals>:177(copyto)
+        2    0.000    0.000    0.000    0.000 contextlib.py:117(__exit__)
+        2    0.000    0.000    0.000    0.000 contextlib.py:82(__init__)
+        1    0.000    0.000    0.000    0.000 _parallel_backends.py:185(in_main_thread)
+        1    0.000    0.000    0.000    0.000 disk.py:42(memstr_to_bytes)
+        2    0.000    0.000    0.000    0.000 _config.py:133(config_context)
+        1    0.000    0.000    0.000    0.000 <__array_function__ internals>:177(reshape)
+        1    0.000    0.000    0.000    0.000 parallel.py:960(retrieve)
+        5    0.000    0.000    0.000    0.000 warnings.py:437(__init__)
+        2    0.000    0.000    0.000    0.000 threading.py:341(notify)
+        1    0.000    0.000    0.000    0.000 _dbscan.py:301(__init__)
+        1    0.000    0.000    0.000    0.000 logger.py:39(short_format_time)
+        5    0.000    0.000    0.000    0.000 _parallel_backends.py:34(__init__)
+        7    0.000    0.000    0.000    0.000 fromnumeric.py:70(<dictcomp>)
+        1    0.000    0.000    0.000    0.000 <__array_function__ internals>:177(where)
+        5    0.000    0.000    0.000    0.000 validation.py:561(_ensure_no_complex_data)
+        1    0.000    0.000    0.000    0.000 fromnumeric.py:198(reshape)
+        2    0.000    0.000    0.000    0.000 shape_base.py:23(atleast_1d)
+        5    0.000    0.000    0.000    0.000 warnings.py:477(__exit__)
+        5    0.000    0.000    0.000    0.000 {method 'remove' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 _base.py:357(_check_algorithm_metric)
+        1    0.000    0.000    0.000    0.000 parallel.py:376(__call__)
+        1    0.000    0.000    0.000    0.000 _base.py:335(__init__)
+        3    0.000    0.000    0.000    0.000 validation.py:1824(_get_feature_names)
+        7    0.000    0.000    0.000    0.000 _base.py:1301(isspmatrix)
+        2    0.000    0.000    0.000    0.000 __init__.py:748(gen_even_slices)
+        5    0.000    0.000    0.000    0.000 validation.py:571(_check_estimator_name)
+        6    0.000    0.000    0.000    0.000 {method 'update' of 'dict' objects}
+        4    0.000    0.000    0.000    0.000 threading.py:246(__enter__)
+        1    0.000    0.000    0.000    0.000 parallel.py:199(__init__)
+        1    0.000    0.000    0.000    0.000 parallel.py:271(__init__)
+        4    0.000    0.000    0.000    0.000 threading.py:249(__exit__)
+        1    0.000    0.000    0.000    0.000 threading.py:1306(current_thread)
+        2    0.000    0.000    0.000    0.000 _config.py:46(set_config)
+       10    0.000    0.000    0.000    0.000 {built-in method builtins.setattr}
+        1    0.000    0.000    0.000    0.000 {built-in method from_bytes}
+        1    0.000    0.000    0.000    0.000 {built-in method posix.urandom}
+        9    0.000    0.000    0.000    0.000 {method 'insert' of 'list' objects}
+       15    0.000    0.000    0.000    0.000 {method 'endswith' of 'str' objects}
+        6    0.000    0.000    0.000    0.000 numeric.py:1397(<listcomp>)
+        3    0.000    0.000    0.000    0.000 {built-in method builtins.sorted}
+        2    0.000    0.000    0.000    0.000 {method 'reshape' of 'numpy.ndarray' objects}
+        8    0.000    0.000    0.000    0.000 {method 'copy' of 'dict' objects}
+        2    0.000    0.000    0.000    0.000 threading.py:261(_is_owned)
+        1    0.000    0.000    0.000    0.000 shape_base.py:218(_vhstack_dispatcher)
+        3    0.000    0.000    0.000    0.000 {built-in method numpy.empty}
+        1    0.000    0.000    0.000    0.000 functools.py:64(wraps)
+        6    0.000    0.000    0.000    0.000 {method 'rpartition' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 context.py:233(get_context)
+        1    0.000    0.000    0.000    0.000 parallel.py:245(__exit__)
+        1    0.000    0.000    0.000    0.000 queue.py:212(_put)
+        1    0.000    0.000    0.000    0.000 {method 'copy' of 'numpy.ndarray' objects}
+       15    0.000    0.000    0.000    0.000 {built-in method _warnings._filters_mutated}
+        1    0.000    0.000    0.000    0.000 uuid.py:327(hex)
+        3    0.000    0.000    0.000    0.000 {method 'transpose' of 'numpy.ndarray' objects}
+        7    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}
+        3    0.000    0.000    0.000    0.000 queue.py:208(_qsize)
+        6    0.000    0.000    0.000    0.000 fromnumeric.py:2157(_sum_dispatcher)
+        4    0.000    0.000    0.000    0.000 {built-in method time.time}
+        1    0.000    0.000    0.000    0.000 queue.py:205(_init)
+        1    0.000    0.000    0.000    0.000 queue.py:216(_get)
+       10    0.000    0.000    0.000    0.000 einsumfunc.py:1001(_einsum_dispatcher)
+        1    0.000    0.000    0.000    0.000 logger.py:23(_squeeze_time)
+        1    0.000    0.000    0.000    0.000 process.py:198(daemon)
+        1    0.000    0.000    0.000    0.000 _parallel_backends.py:70(configure)
+        2    0.000    0.000    0.000    0.000 {method 'acquire' of '_thread.lock' objects}
+        1    0.000    0.000    0.000    0.000 parallel.py:248(unregister)
+        5    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
+        5    0.000    0.000    0.000    0.000 {method 'startswith' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 parallel.py:797(_terminate_backend)
+        1    0.000    0.000    0.000    0.000 shape_base.py:207(_arrays_for_stack_dispatcher)
+        1    0.000    0.000    0.000    0.000 _parallel_backends.py:634(__init__)
+        3    0.000    0.000    0.000    0.000 numeric.py:1472(<listcomp>)
+        4    0.000    0.000    0.000    0.000 {method '__enter__' of '_thread.lock' objects}
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.callable}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.vars}
+        1    0.000    0.000    0.000    0.000 parallel.py:371(__init__)
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.max}
+        1    0.000    0.000    0.000    0.000 inspect.py:72(isclass)
+        1    0.000    0.000    0.000    0.000 threading.py:81(RLock)
+        1    0.000    0.000    0.000    0.000 {built-in method _operator.le}
+        4    0.000    0.000    0.000    0.000 {method '__exit__' of '_thread.lock' objects}
+        1    0.000    0.000    0.000    0.000 inspect.py:487(getmro)
+        2    0.000    0.000    0.000    0.000 parallel.py:904(_print)
+        1    0.000    0.000    0.000    0.000 {method 'count' of 'list' objects}
+        2    0.000    0.000    0.000    0.000 _base.py:612(_more_tags)
+        6    0.000    0.000    0.000    0.000 {built-in method _operator.index}
+        2    0.000    0.000    0.000    0.000 _parallel_backends.py:89(compute_batch_size)
+        1    0.000    0.000    0.000    0.000 {built-in method _thread.allocate_lock}
+        1    0.000    0.000    0.000    0.000 _parallel_backends.py:227(effective_n_jobs)
+        1    0.000    0.000    0.000    0.000 process.py:37(current_process)
+        2    0.000    0.000    0.000    0.000 multiarray.py:1071(copyto)
+        1    0.000    0.000    0.000    0.000 {built-in method _thread.get_ident}
+        3    0.000    0.000    0.000    0.000 parallel.py:301(__len__)
+        1    0.000    0.000    0.000    0.000 {built-in method numpy.promote_types}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        3    0.000    0.000    0.000    0.000 numeric.py:1406(_moveaxis_dispatcher)
+        1    0.000    0.000    0.000    0.000 base.py:986(_more_tags)
+        2    0.000    0.000    0.000    0.000 shape_base.py:19(_atleast_1d_dispatcher)
+        1    0.000    0.000    0.000    0.000 parallel.py:917(print_progress)
+        1    0.000    0.000    0.000    0.000 base.py:345(_more_tags)
+        1    0.000    0.000    0.000    0.000 {method 'pop' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 fromnumeric.py:1123(_argmax_dispatcher)
+        2    0.000    0.000    0.000    0.000 multiarray.py:148(concatenate)
+        2    0.000    0.000    0.000    0.000 {built-in method _operator.lt}
+        1    0.000    0.000    0.000    0.000 _parallel_backends.py:599(get)
+        2    0.000    0.000    0.000    0.000 _parallel_backends.py:137(retrieval_context)
+        1    0.000    0.000    0.000    0.000 multiarray.py:341(where)
+        1    0.000    0.000    0.000    0.000 fromnumeric.py:2922(_prod_dispatcher)
+        1    0.000    0.000    0.000    0.000 numeric.py:1481(_cross_dispatcher)
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.iter}
+        1    0.000    0.000    0.000    0.000 {method 'append' of 'collections.deque' objects}
+        1    0.000    0.000    0.000    0.000 _parallel_backends.py:80(start_call)
+        1    0.000    0.000    0.000    0.000 fromnumeric.py:193(_reshape_dispatcher)
+        1    0.000    0.000    0.000    0.000 {method 'extend' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 parallel.py:242(__enter__)
+        1    0.000    0.000    0.000    0.000 _parallel_backends.py:200(effective_n_jobs)
+        1    0.000    0.000    0.000    0.000 _parallel_backends.py:93(batch_completed)
+        1    0.000    0.000    0.000    0.000 _parallel_backends.py:83(stop_call)
+        1    0.000    0.000    0.000    0.000 _parallel_backends.py:86(terminate)
+        1    0.000    0.000    0.000    0.000 {method 'popleft' of 'collections.deque' objects}
+
+
