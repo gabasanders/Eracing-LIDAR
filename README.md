@@ -16,7 +16,7 @@ O algoritimo divide todos os pontos de uma amostragem em inliers e outliers. Os 
 Se o objetivo for traçar uma linha que melhor descreve determinado conjunto de pontos (a), por exemplo, o algoritimo irá pegar uma linha descrita por dois pontos aleatórios (b) e separar todos os outros pontos em inliers e outliers, dependendo da distância δ na qual os outros pontos se encontram da reta. Na figura abaixo, em (c), os pontos em azul são os inliers, aqueles que se encontram dentro do limite δ no qual o ponto pode ser considerado inlier.
 O algoritimo então seleciona outros dois pontos e repete o processo. Por fim, retorna o modelo com a maior quantidade de inliers (d).
 
-(FOTO)
+(/Screenshot_5.png "RANSAC")
 
 
 
