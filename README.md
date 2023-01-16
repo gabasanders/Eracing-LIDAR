@@ -16,7 +16,7 @@ O algoritimo divide todos os pontos de uma amostragem em inliers e outliers. Os 
 Se o objetivo for traçar uma linha que melhor descreve determinado conjunto de pontos (a), por exemplo, o algoritimo irá pegar uma linha descrita por dois pontos aleatórios (b) e separar todos os outros pontos em inliers e outliers, dependendo da distância δ na qual os outros pontos se encontram da reta. Na figura abaixo, em (c), os pontos em azul são os inliers, aqueles que se encontram dentro do limite δ no qual o ponto pode ser considerado inlier.
 O algoritimo então seleciona outros dois pontos e repete o processo. Por fim, retorna o modelo com a maior quantidade de inliers (d).
 
-![This is a alt text.](/Screenshot_5.png "RANSAC")
+![ransac](/Screenshot_5.png "RANSAC")
 
 
 
@@ -37,16 +37,27 @@ Para explicar o funcionamento do algoritimo e como cada Ponto é caracterizado, 
 
 Supondo que tenha sido escolhido um Raio R = 3 cm e que a quantidade de pontos necessários para um Core Point seja 3, trabalharemos com o conjunto de pontos abaixo:
 
+![DBSCAN](/DBSCAN_0.png "DBSCAN")
+
 Para cada ponto, o algoritimo irá traçar um região de raio R = 3 cm a partir desse ponto, e se, dentro dessa região, tiver uma quantidade de pontos vizinhos maior ou igual a 3, esse ponto será um Core Point.
+
+
+![DBSCAN](/DBSCAN_1.png "DBSCAN")
+
  Na imagem, o ponto em laranja é um Core Point, já que possui 3 ou mais outros pontos  na região de raio R ao seu redor.
 
 Caso a região de raio R não possua a quantidade de pontos necessária para um Core Point, o ponto pode ser caracterizado como Border Point ou Noise Point.
 
 Se o ponto, apesar de não atingir a condição, estiver dentro da região de raio R de um Core Point, esse ponto se torna um Border Point.
 
+![DBSCAN](/DBSCAN_2.png "DBSCAN")
+
 Na imagem acima, os pontos em laranja são os Core Points, e o ponto rosa representa um Border Point, que, apesar de não possuir três ou mais pontos dentro de sua região de raio R, possui um Core Point.
 
 Por fim, os pontos que não antigem a condição necessária para Core Points e nem possuem Core Points dentro de sua região de raio R, se encaixam como Noise Points.
 Na imagem acima, os pontos em laranja são os Core Poins, ou rosas são os Border Points e s pontos pretos são os Noise Points.
+
+
+![DBSCAN](/DBSCAN_3.png "DBSCAN")
 
 Desse modo, o DBSCAN é capaz de reconhecer os clusters e, consequentemente, os cones com alta precisão.
